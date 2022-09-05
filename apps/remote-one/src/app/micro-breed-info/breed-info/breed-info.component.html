@@ -1,0 +1,26 @@
+<div class="breed-info">
+    <div *ngIf="breedData">
+
+       <div class="info">
+        <div class="breed-image">
+            <img src="{{breedData.image}}" class="image">
+        </div>
+        <div class="list">
+            <div><b>Name:</b> {{breedData['name']}}</div>
+            <div><b>Colors:</b> {{breedData['colors']}}</div>
+            <div><b>Origins:</b> {{breedData['origins']}}</div>
+            <div><b>Weight:</b> {{breedData['sizes']}}</div>
+            <div><b>Fur-type:</b> {{breedData['fur_type']}}</div>
+            <div><b>Ear-Type:</b> {{breedData['ear_type']}}</div>
+            <div><b>Rabbit No:</b> {{breedData['breed_id']}}</div>
+        </div>
+        
+       </div>
+
+    </div>
+</div>
+
+<button class="button" routerLink="/">Go Back</button>
+
+
+

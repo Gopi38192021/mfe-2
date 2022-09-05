@@ -5,7 +5,7 @@ module.exports = withModuleFederationPlugin({
   name: 'mfe1',
 
   exposes: {
-    './Module': './apps/remote-one/src/app/remote-stub/remote-stub.module.ts',
+    './Module': './apps/remote-one/src/app/micro-breed-info/micro-breed-info.module.ts',
   },
 
   shared: {
